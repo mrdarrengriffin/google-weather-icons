@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><defs><linearGradient id="a" x1="0%" x2="67.859%" y1="0%" y2="76.031%"><stop offset="0%" stop-color="#FCD35C"/><stop offset="100%" stop-color="#FBBC04"/></linearGradient><linearGradient id="b" x1="22.493%" x2="100%" y1="17.395%" y2="115.202%"><stop offset="0%" stop-color="#F1F3F4"/><stop offset="100%" stop-color="#DEDFDF"/></linearGradient><linearGradient id="c" x1="83.458%" x2="-15.637%" y1="100%" y2="-29.648%"><stop offset="0%" stop-color="#E4E5E5"/><stop offset="100%" stop-color="#FCD35C"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><g transform="translate(3 3)"><circle cx="13" cy="13" r="13" fill="#FBBC04"/><circle cx="13" cy="13" r="13" fill="url(#a)"/></g><circle cx="17" cy="24" r="8" fill="url(#b)"/><path fill="url(#c)" d="M9.318 26.24a8 8 0 1 1 15.539-.723 12.953 12.953 0 0 1-8.66 3.482 5.998 5.998 0 0 0-6.88-2.76Z"/><path fill="#F1F3F4" d="M17 32a6 6 0 0 0-12 0c.009-.014 12.003-.01 12 0Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a" x1="0%" x2="67.859%" y1="0%" y2="76.031%">
+      <stop offset="0%" stop-color="#FCD35C"/>
+      <stop offset="100%" stop-color="#FBBC04"/>
+    </linearGradient>
+    <linearGradient id="b" x1="22.493%" x2="100%" y1="17.395%" y2="115.202%">
+      <stop offset="0%" stop-color="#F1F3F4"/>
+      <stop offset="100%" stop-color="#DEDFDF"/>
+    </linearGradient>
+    <linearGradient id="c" x1="83.458%" x2="-15.637%" y1="100%" y2="-29.648%">
+      <stop offset="0%" stop-color="#E4E5E5"/>
+      <stop offset="100%" stop-color="#FCD35C"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(3 3)">
+      <circle cx="13" cy="13" r="13" fill="#FBBC04"/>
+      <circle cx="13" cy="13" r="13" fill="url(#a)"/>
+    </g>
+    <circle cx="17" cy="24" r="8" fill="url(#b)"/>
+    <path fill="url(#c)" d="M9.318 26.24a8 8 0 1 1 15.539-.723 12.953 12.953 0 0 1-8.66 3.482 5.998 5.998 0 0 0-6.88-2.76Z"/>
+    <path fill="#F1F3F4" d="M17 32a6 6 0 0 0-12 0c.009-.014 12.003-.01 12 0Z"/>
+  </g>
+</svg>

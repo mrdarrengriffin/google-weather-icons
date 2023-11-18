@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><defs><linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="0%"><stop offset="0%" stop-color="#FFF" stop-opacity=".5"/><stop offset="100%" stop-color="#FFF" stop-opacity="0"/></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="url(#a)" fill-rule="nonzero" d="M16 32 0 0h32z"/><circle cx="26" cy="26" r="6" fill="#F1F3F4"/><circle cx="6" cy="26" r="6" fill="#F1F3F4" transform="matrix(-1 0 0 1 12 0)"/><path fill="#CDD0D5" d="M26 32a5 5 0 0 0-10 0M6 32a5 5 0 0 1 10 0"/><path stroke="#EA4335" stroke-linecap="round" d="M12 25h8M.496 1h31M14 29h4M8 17h16m-14 4h12M4 9h24M2 5h28M6 13h20"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="a" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".5"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#a)" fill-rule="nonzero" d="M16 32 0 0h32z"/>
+    <circle cx="26" cy="26" r="6" fill="#F1F3F4"/>
+    <circle cx="6" cy="26" r="6" fill="#F1F3F4" transform="matrix(-1 0 0 1 12 0)"/>
+    <path fill="#CDD0D5" d="M26 32a5 5 0 0 0-10 0M6 32a5 5 0 0 1 10 0"/>
+    <path stroke="#EA4335" stroke-linecap="round" d="M12 25h8M.496 1h31M14 29h4M8 17h16m-14 4h12M4 9h24M2 5h28M6 13h20"/>
+  </g>
+</svg>
