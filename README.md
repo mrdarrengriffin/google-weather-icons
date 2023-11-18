@@ -3,9 +3,17 @@ A collection of the official weather icons used by Google.
 
 **Disclaimer**: I do not own these icons. All rights belong to Google.
 
+I could only find PNG versions of the v1 and v2 icons. I've used the highest resolution I could obtain from Google.
+
+### Formats
+SVGs are available for v3 and v4 and have been optimised using [SVGOMG](https://svgomg.net/). I have purposefully not minimised the SVGs as I believe it is better to have readable SVGs. However, do as you wish with them.
+
 Fun fact: [Did you know that Google has a typo for one of their icons?](https://twitter.com/MrDarrenGriffin/status/1725896460363788681)
 
+# Icons
+Below are the icons for each version downscaled to 64px. They have been somewhat grouped by icon type but are not in any particular order.
 ## v1
+In this variant, no night versions exist.
 ### Day
 [<img src="v1/sunny.png" width="64"/>](v1/sunny.png)
 [<img src="v1/sunny_s_cloudy.png" width="64"/>](v1/sunny_s_cloudy.png)
@@ -62,6 +70,7 @@ Fun fact: [Did you know that Google has a typo for one of their icons?](https://
 [<img src="v2/tornado.png" width="64"/>](v2/tornado.png)
 
 ## v3
+For some reason, Google chose to make the moon yellow in this variant. I have made a custom alternative which is more realistic.
 ### Day
 [<img src="v3/sunny.svg" width="64"/>](v3/sunny.svg)
 [<img src="v3/mostly_sunny.svg" width="64"/>](v3/mostly_sunny.svg)
@@ -73,6 +82,14 @@ Fun fact: [Did you know that Google has a typo for one of their icons?](https://
 [<img src="v3/partly_clear.svg" width="64"/>](v3/partly_clear.svg)
 [<img src="v3/mostly_clear.svg" width="64"/>](v3/mostly_clear.svg)
 [<img src="v3/mostly_cloudy_night.svg" width="64"/>](v3/mostly_cloudy.svg)
+
+### MrDarrenGriffin's Night Alternative
+I've altered these icons inherit the same moon gradient as v4 which, in my opinion, looks better.
+
+[<img src="v3/clear_alt.svg" width="64"/>](v3/clear.svg)
+[<img src="v3/partly_clear_alt.svg" width="64"/>](v3/partly_clear.svg)
+[<img src="v3/mostly_clear_alt.svg" width="64"/>](v3/mostly_clear.svg)
+[<img src="v3/mostly_cloudy_night_alt.svg" width="64"/>](v3/mostly_cloudy.svg)
 
 ### General
 [<img src="v3/cloudy.svg" width="64"/>](v3/cloudy.svg)
@@ -134,3 +151,6 @@ Fun fact: [Did you know that Google has a typo for one of their icons?](https://
 [<img src="v4/blizzard.svg" alt="drawing" width="64"/>](v4/blizzard.svg)
 [<img src="v4/tornado.svg" width="64"/>](v4/tornado.svg)
 [<img src="v4/very_cold.svg" width="64"/>](v4/very_cold.svg)
+
+# TODO
+- [ ] Add JSON file to map icon names to icon files and to easily switch variants
