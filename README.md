@@ -1,6 +1,8 @@
 # Google Weather Icons
 A collection of the official weather icons used by Google.
 
+**Disclaimer**: I do not own these icons. All rights belong to Google.
+
 ## v1
 ### Day
 [<img src="v1/sunny.png" width="64"/>](v1/sunny.png)
@@ -27,6 +29,34 @@ A collection of the official weather icons used by Google.
 [<img src="v1/fog.png" width="64"/>](v1/fog.png)
 
 ## v2
+[<img src="v2/sunny.png" width="64"/>](v2/sunny.png)
+[<img src="v2/mostly_sunny.png" width="64"/>](v2/mostly_sunny.png)
+[<img src="v2/partly_cloudy.png" width="64"/>](v2/partly_cloudy.png)
+[<img src="v2/mostly_cloudy_day.png" width="64"/>](v2/mostly_cloudy_day.png)
+[<img src="v2/scattered_showers_day.png" width="64"/>](v2/scattered_showers_day.png)
+[<img src="v2/isolated_scattered_tstorms_day.png" width="64"/>](v2/isolated_scattered_tstorms_day.png)
+
+[<img src="v2/clear_night.png" width="64"/>](v2/clear_night.png)
+[<img src="v2/isolated_scattered_tstorms_night.png" width="64"/>](v2/isolated_scattered_tstorms_night.png)
+[<img src="v2/mostly_clear_night.png" width="64"/>](v2/mostly_clear_night.png)
+[<img src="v2/mostly_cloudy_night.png" width="64"/>](v2/mostly_cloudy_night.png)
+[<img src="v2/partly_cloudy_night.png" width="64"/>](v2/partly_cloudy_night.png)
+[<img src="v2/scattered_showers_night.png" width="64"/>](v2/scattered_showers_night.png)
+
+[<img src="v2/cloudy.png" width="64"/>](v2/cloudy.png)
+[<img src="v2/drizzle.png" width="64"/>](v2/drizzle.png)
+[<img src="v2/showers_rain.png" width="64"/>](v2/showers_rain.png)
+[<img src="v2/heavy_rain.png" width="64"/>](v2/heavy_rain.png)
+[<img src="v2/flurries.png" width="64"/>](v2/flurries.png)
+[<img src="v2/snow_showers_snow.png" width="64"/>](v2/snow_showers_snow.png)
+[<img src="v2/heavy_snow.png" width="64"/>](v2/heavy_snow.png)
+[<img src="v2/wintry_mix_rain_snow.png" width="64"/>](v2/wintry_mix_rain_snow.png)
+[<img src="v2/sleet_hail.png" width="64"/>](v2/sleet_hail.png)
+[<img src="v2/strong_tstorms.png" width="64"/>](v2/strong_tstorms.png)
+[<img src="v2/haze_fog_dust_smoke.png" width="64"/>](v2/haze_fog_dust_smoke.png)
+[<img src="v2/blowing_snow.png" width="64"/>](v2/blowing_snow.png)
+[<img src="v2/blizzard.png" width="64"/>](v2/blizzard.png)
+[<img src="v2/tornado.png" width="64"/>](v2/tornado.png)
 
 ## v3
 ### Day
