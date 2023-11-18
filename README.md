@@ -3,6 +3,8 @@ A collection of the official weather icons used by Google.
 
 **Disclaimer**: I do not own these icons. All rights belong to Google.
 
+Fun fact: [Did you know that Google has a typo for one of their icons?](https://twitter.com/MrDarrenGriffin/status/1725896460363788681)
+
 ## v1
 ### Day
 [<img src="v1/sunny.png" width="64"/>](v1/sunny.png)
@@ -63,7 +65,7 @@ A collection of the official weather icons used by Google.
 ### Day
 [<img src="v3/sunny.svg" width="64"/>](v3/sunny.svg)
 [<img src="v3/mostly_sunny.svg" width="64"/>](v3/mostly_sunny.svg)
-[<img src="v3/partly_cloudy.svg" width="64"/>](v3/party_cloudy.svg)
+[<img src="v3/partly_cloudy.svg" width="64"/>](v3/partly_cloudy.svg)
 [<img src="v3/mostly_cloudy.svg" width="64"/>](v3/mostly_cloudy.svg)
 
 ### Night
