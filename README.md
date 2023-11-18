@@ -29,20 +29,21 @@ A collection of the official weather icons used by Google.
 [<img src="v1/fog.png" width="64"/>](v1/fog.png)
 
 ## v2
+### Day
 [<img src="v2/sunny.png" width="64"/>](v2/sunny.png)
 [<img src="v2/mostly_sunny.png" width="64"/>](v2/mostly_sunny.png)
 [<img src="v2/partly_cloudy.png" width="64"/>](v2/partly_cloudy.png)
 [<img src="v2/mostly_cloudy_day.png" width="64"/>](v2/mostly_cloudy_day.png)
 [<img src="v2/scattered_showers_day.png" width="64"/>](v2/scattered_showers_day.png)
 [<img src="v2/isolated_scattered_tstorms_day.png" width="64"/>](v2/isolated_scattered_tstorms_day.png)
-
+### Night
 [<img src="v2/clear_night.png" width="64"/>](v2/clear_night.png)
 [<img src="v2/isolated_scattered_tstorms_night.png" width="64"/>](v2/isolated_scattered_tstorms_night.png)
 [<img src="v2/mostly_clear_night.png" width="64"/>](v2/mostly_clear_night.png)
 [<img src="v2/mostly_cloudy_night.png" width="64"/>](v2/mostly_cloudy_night.png)
 [<img src="v2/partly_cloudy_night.png" width="64"/>](v2/partly_cloudy_night.png)
 [<img src="v2/scattered_showers_night.png" width="64"/>](v2/scattered_showers_night.png)
-
+### General
 [<img src="v2/cloudy.png" width="64"/>](v2/cloudy.png)
 [<img src="v2/drizzle.png" width="64"/>](v2/drizzle.png)
 [<img src="v2/showers_rain.png" width="64"/>](v2/showers_rain.png)
