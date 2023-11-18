@@ -38,11 +38,11 @@ A collection of the official weather icons used by Google.
 [<img src="v2/isolated_scattered_tstorms_day.png" width="64"/>](v2/isolated_scattered_tstorms_day.png)
 ### Night
 [<img src="v2/clear_night.png" width="64"/>](v2/clear_night.png)
-[<img src="v2/isolated_scattered_tstorms_night.png" width="64"/>](v2/isolated_scattered_tstorms_night.png)
 [<img src="v2/mostly_clear_night.png" width="64"/>](v2/mostly_clear_night.png)
-[<img src="v2/mostly_cloudy_night.png" width="64"/>](v2/mostly_cloudy_night.png)
 [<img src="v2/partly_cloudy_night.png" width="64"/>](v2/partly_cloudy_night.png)
+[<img src="v2/mostly_cloudy_night.png" width="64"/>](v2/mostly_cloudy_night.png)
 [<img src="v2/scattered_showers_night.png" width="64"/>](v2/scattered_showers_night.png)
+[<img src="v2/isolated_scattered_tstorms_night.png" width="64"/>](v2/isolated_scattered_tstorms_night.png)
 ### General
 [<img src="v2/cloudy.png" width="64"/>](v2/cloudy.png)
 [<img src="v2/drizzle.png" width="64"/>](v2/drizzle.png)
@@ -60,7 +60,38 @@ A collection of the official weather icons used by Google.
 [<img src="v2/tornado.png" width="64"/>](v2/tornado.png)
 
 ## v3
-In progress...
+### Day
+[<img src="v3/sunny.svg" width="64"/>](v3/sunny.svg)
+[<img src="v3/mostly_sunny.svg" width="64"/>](v3/mostly_sunny.svg)
+[<img src="v3/partly_cloudy.svg" width="64"/>](v3/party_cloudy.svg)
+[<img src="v3/mostly_cloudy.svg" width="64"/>](v3/mostly_cloudy.svg)
+
+### Night
+[<img src="v3/clear.svg" width="64"/>](v3/clear.svg)
+[<img src="v3/partly_clear.svg" width="64"/>](v3/partly_clear.svg)
+[<img src="v3/mostly_clear.svg" width="64"/>](v3/mostly_clear.svg)
+[<img src="v3/mostly_cloudy_night.svg" width="64"/>](v3/mostly_cloudy.svg)
+
+### General
+[<img src="v3/cloudy.svg" width="64"/>](v3/cloudy.svg)
+[<img src="v3/drizzle.svg" width="64"/>](v3/drizzle.svg)
+[<img src="v3/scattered_showers.svg" width="64"/>](v3/scattered_showers.svg)
+[<img src="v3/showers.svg" width="64"/>](v3/showers.svg)
+[<img src="v3/snow_showers.svg" width="64"/>](v3/snow_showers.svg)
+[<img src="v3/flurries.svg" width="64"/>](v3/flurries.svg)
+[<img src="v3/scattered_snow.svg" width="64"/>](v3/scattered_snow.svg)
+[<img src="v3/heavy_snow.svg" width="64"/>](v3/heavy_snow.svg)
+[<img src="v3/icy.svg" width="64"/>](v3/icy.svg)
+[<img src="v3/mixed_rain_hail_sleet.svg" width="64"/>](v3/mixed_rain_hail_sleet.svg)
+[<img src="v3/sleet_hail.svg" width="64"/>](v3/sleet_hail.svg)
+[<img src="v3/wintry_mix.svg" width="64"/>](v3/wintry_mix.svg)
+[<img src="v3/isolated_tstorms.svg" width="64"/>](v3/isolated_tstorms.svg)
+[<img src="v3/strong_tstorms.svg" width="64"/>](v3/strong_tstorms.svg)
+[<img src="v3/wind.svg" width="64"/>](v3/wind.svg)
+[<img src="v3/blizzard.svg" width="64"/>](v3/blizzard.svg)
+[<img src="v3/blowing_snow.svg" width="64"/>](v3/blowing_snow.svg)
+[<img src="v3/tornado.svg" width="64"/>](v3/tornado.svg)
+[<img src="v3/very_cold.svg" width="64"/>](v3/very_cold.svg)
 
 ## v4
 ### Day
