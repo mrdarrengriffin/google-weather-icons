@@ -2,7 +2,29 @@
 A collection of the official weather icons used by Google.
 
 ## v1
-
+### Day
+[<img src="v1/sunny.png" width="64"/>](v1/sunny.png)
+[<img src="v1/sunny_s_cloudy.png" width="64"/>](v1/sunny_s_cloudy.png)
+[<img src="v1/partly_cloudy.png" width="64"/>](v1/partly_cloudy.png)
+[<img src="v1/cloudy_s_sunny.png" width="64"/>](v1/cloudy_s_sunny.png)
+[<img src="v1/rain_s_sunny.png" width="64"/>](v1/rain_s_sunny.png)
+[<img src="v1/sunny_s_rain.png" width="64"/>](v1/sunny_s_rain.png)
+### General
+[<img src="v1/cloudy.png" width="64"/>](v1/cloudy.png)
+[<img src="v1/rain_light.png" width="64"/>](v1/rain_light.png)
+[<img src="v1/rain.png" width="64"/>](v1/rain.png)
+[<img src="v1/rain_heavy.png" width="64"/>](v1/rain_heavy.png)
+[<img src="v1/rain_s_cloudy.png" width="64"/>](v1/rain_s_cloudy.png)
+[<img src="v1/cloudy_s_rain.png" width="64"/>](v1/cloudy_s_rain.png)
+[<img src="v1/thunderstorms.png" width="64"/>](v1/thunderstorms.png)
+[<img src="v1/snow_light.png" width="64"/>](v1/snow_light.png)
+[<img src="v1/snow.png" width="64"/>](v1/snow.png)
+[<img src="v1/snow_heavy.png" width="64"/>](v1/snow_heavy.png)
+[<img src="v1/snow_s_cloudy.png" width="64"/>](v1/snow_s_cloudy.png)
+[<img src="v1/cloudy_s_snow.png" width="64"/>](v1/cloudy_s_snow.png)
+[<img src="v1/rain_s_snow.png" width="64"/>](v1/rain_s_snow.png)
+[<img src="v1/snow_s_rain.png" width="64"/>](v1/snow_s_rain.png)
+[<img src="v1/fog.png" width="64"/>](v1/fog.png)
 
 ## v2
 
