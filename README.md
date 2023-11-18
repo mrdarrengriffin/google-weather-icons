@@ -153,4 +153,5 @@ I've altered these icons inherit the same moon gradient as v4 which, in my opini
 [<img src="v4/very_cold.svg" width="64"/>](v4/very_cold.svg)
 
 # TODO
+- [x] Add custom night icons for v3
 - [ ] Add JSON file to map icon names to icon files and to easily switch variants
