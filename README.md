@@ -109,6 +109,9 @@ I've altered these icons inherit the same moon gradient as v4 which, in my opini
 [<img src="v3/wind.svg" width="64"/>](v3/wind.svg)
 [<img src="v3/blizzard.svg" width="64"/>](v3/blizzard.svg)
 [<img src="v3/blowing_snow.svg" width="64"/>](v3/blowing_snow.svg)
+[<img src="v3/mist.svg" width="64"/>](v3/mist.svg)
+[<img src="v3/smoke.svg" width="64"/>](v3/smoke.svg)
+[<img src="v3/dust.svg" width="64"/>](v3/dust.svg)
 [<img src="v3/tornado.svg" width="64"/>](v3/tornado.svg)
 [<img src="v3/very_cold.svg" width="64"/>](v3/very_cold.svg)
 
