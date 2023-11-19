@@ -38,6 +38,10 @@ In this variant, no night versions exist.
 [<img src="v1/snow_s_rain.png" width="64"/>](v1/snow_s_rain.png)
 [<img src="v1/fog.png" width="64"/>](v1/fog.png)
 
+### Misc
+[<img src="v1/arrow_unselected.svg" width="64"/>](v1/arrow_unselected.svg)
+[<img src="v1/arrow_selected.svg" width="64"/>](v1/arrow_selected.svg)
+
 ## v2
 ### Day
 [<img src="v2/sunny.png" width="64"/>](v2/sunny.png)
@@ -110,10 +114,24 @@ I've altered these icons inherit the same moon gradient as v4 which, in my opini
 [<img src="v3/blizzard.svg" width="64"/>](v3/blizzard.svg)
 [<img src="v3/blowing_snow.svg" width="64"/>](v3/blowing_snow.svg)
 [<img src="v3/mist.svg" width="64"/>](v3/mist.svg)
+[<img src="v3/fog.svg" width="64"/>](v3/fog.svg)
 [<img src="v3/smoke.svg" width="64"/>](v3/smoke.svg)
 [<img src="v3/dust.svg" width="64"/>](v3/dust.svg)
 [<img src="v3/tornado.svg" width="64"/>](v3/tornado.svg)
 [<img src="v3/very_cold.svg" width="64"/>](v3/very_cold.svg)
+
+### Misc
+[<img src="v3/arrow.svg" width="64"/>](v3/arrow.svg)
+[<img src="v3/arrow_2.svg" width="64"/>](v3/arrow_2.svg)
+[<img src="v3/arrow_3.svg" width="64"/>](v3/arrow_3.svg)
+[<img src="v3/arrow_4.svg" width="64"/>](v3/arrow_4.svg)
+[<img src="v3/arrow_5.svg" width="64"/>](v3/arrow_5.svg)
+
+[<img src="v3/droplet_clear.svg" width="64"/>](v3/droplet_clear.svg)
+[<img src="v3/droplet_drizzle.svg" width="64"/>](v3/droplet_drizzle.svg)
+[<img src="v3/droplet_light.svg" width="64"/>](v3/droplet_light.svg)
+[<img src="v3/droplet_moderate.svg" width="64"/>](v3/droplet_moderate.svg)
+[<img src="v3/droplet_heavy.svg" width="64"/>](v3/droplet_heavy.svg)
 
 ## v4
 ### Day
