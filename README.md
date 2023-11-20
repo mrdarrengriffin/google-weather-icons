@@ -3,9 +3,9 @@ A collection of the official weather icons used by Google.
 
 **Disclaimer**: I do not own these icons. All rights belong to Google.
 
+### Formats
 I could only find PNG versions of the v1 and v2 icons. I've used the highest resolution I could obtain from Google.
 
-### Formats
 SVGs are available for v3 and v4 and have been optimised using [SVGOMG](https://svgomg.net/). I have purposefully not minimised the SVGs as I believe it is better to have readable SVGs. However, do as you wish with them.
 
 Fun fact: [Did you know that Google has a typo for one of their icons?](https://twitter.com/MrDarrenGriffin/status/1725896460363788681)
