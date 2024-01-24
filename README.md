@@ -176,3 +176,10 @@ I've altered these icons inherit the same moon gradient as v4 which, in my opini
 # TODO
 - [x] Add custom night icons for v3
 - [ ] Add JSON file to map icon names to icon files and to easily switch variants
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mrdarrengriffin/google-weather-icons&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mrdarrengriffin/google-weather-icons&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mrdarrengriffin/google-weather-icons&type=Date" />
+</picture>
+
