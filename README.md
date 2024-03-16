@@ -172,6 +172,7 @@ I've altered these icons inherit the same moon gradient as v4 which, in my opini
 [<img src="v4/blizzard.svg" alt="drawing" width="64"/>](v4/blizzard.svg)
 [<img src="v4/tornado.svg" width="64"/>](v4/tornado.svg)
 [<img src="v4/very_cold.svg" width="64"/>](v4/very_cold.svg)
+[<img src="v4/umbrella.svg" width="64"/>](v4/umbrella.svg)
 
 # TODO
 - [x] Add custom night icons for v3
