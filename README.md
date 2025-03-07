@@ -10,11 +10,6 @@ SVGs are available for v3 and v4 and have been optimised using [SVGOMG](https://
 
 Fun fact: [Did you know that Google has a typo for one of their icons?](https://twitter.com/MrDarrenGriffin/status/1725896460363788681)
 
-## Support me
-If you found my repository useful, feel free to credit me in your project or
-
-<a href="https://www.buymeacoffee.com/darrengriffin"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=darrengriffin&button_colour=FFDD00&font_colour=000000&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff" height="38" /></a>
-
 # Icons
 Below are the icons for each version downscaled to 64px. They have been somewhat grouped by icon type but are not in any particular order.
 ## v1
