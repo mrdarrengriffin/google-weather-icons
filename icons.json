@@ -1,0 +1,960 @@
+{
+  "sets": {
+    "set-1": {
+      "name": "Google Search (Original)",
+      "description": "Original weather icons from Google Search results",
+      "format": "png",
+      "size": "varies",
+      "themes": [],
+      "path_template": "sets/set-1/{filename}",
+      "source": "Google Search"
+    },
+    "set-2": {
+      "name": "Google Search (Updated)",
+      "description": "Updated weather icons from Google Search results with more conditions and day/night variants",
+      "format": "png",
+      "size": "varies",
+      "themes": [],
+      "path_template": "sets/set-2/{filename}",
+      "source": "Google Search"
+    },
+    "set-3": {
+      "name": "Google Maps Weather",
+      "description": "32x32 flat colored SVGs used in the Google Maps Weather API",
+      "format": "svg",
+      "size": "32x32",
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "path_template": "sets/set-3/{theme}/{filename}",
+      "source": "maps.gstatic.com/weather/v1/"
+    },
+    "set-4": {
+      "name": "Google Weather (Filled)",
+      "description": "48x48 gradient-filled SVGs with rich colors, includes Japanese regional weather icons. Most comprehensive set.",
+      "format": "svg",
+      "size": "48x48",
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "path_template": "sets/set-4/{theme}/{filename}",
+      "source": "www.gstatic.com/weather/conditions/v1/svg/"
+    },
+    "set-5": {
+      "name": "Google Weather (Outlined)",
+      "description": "48x48 outlined/stroked SVGs with minimal fills",
+      "format": "svg",
+      "size": "48x48",
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "path_template": "sets/set-5/{theme}/{filename}",
+      "source": "www.gstatic.com/weather/conditions/v2/svg/"
+    },
+    "set-6": {
+      "name": "Google Weather (Outlined + Gradient)",
+      "description": "48x48 outlined SVGs with gradient fills, newest style",
+      "format": "svg",
+      "size": "48x48",
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "path_template": "sets/set-6/{theme}/{filename}",
+      "source": "www.gstatic.com/weather/conditions/v3/svg/"
+    },
+    "lottie": {
+      "name": "Google Weather Animations",
+      "description": "Lottie JSON background animations from the Pixel Weather app",
+      "format": "json (Lottie)",
+      "path_template": "sets/lottie/{variant}/{filename}",
+      "variants": [
+        "phone_portrait",
+        "phone_portrait_night",
+        "phone_landscape",
+        "phone_landscape_night",
+        "tablet_portrait",
+        "tablet_portrait_night",
+        "tablet_landscape",
+        "tablet_landscape_night"
+      ],
+      "source": "Google Weather APK (com.google.android.apps.weather)"
+    }
+  },
+  "conditions": {
+    "blizzard": {
+      "label": "Blizzard",
+      "has_day_night": false,
+      "sets": {
+        "set-2": {
+          "default": "blizzard.png"
+        },
+        "set-3": {
+          "default": "blizzard.svg"
+        },
+        "set-4": {
+          "default": "blizzard.svg"
+        },
+        "set-5": {
+          "default": "blizzard.svg"
+        }
+      }
+    },
+    "blowing_snow": {
+      "label": "Blowing Snow",
+      "has_day_night": false,
+      "sets": {
+        "set-2": {
+          "default": "blowing_snow.png"
+        },
+        "set-3": {
+          "default": "blowing_snow.svg"
+        },
+        "set-4": {
+          "default": "blowing_snow.svg"
+        },
+        "set-5": {
+          "default": "blowing_snow.svg"
+        },
+        "set-6": {
+          "default": "blowing_snow.svg"
+        }
+      }
+    },
+    "clear": {
+      "label": "Clear Sky",
+      "aliases": [
+        "sunny"
+      ],
+      "has_day_night": true,
+      "sets": {
+        "set-1": {
+          "day": "sunny.png"
+        },
+        "set-2": {
+          "day": "sunny.png",
+          "night": "clear_night.png"
+        },
+        "set-3": {
+          "day": "sunny.svg",
+          "night": "clear.svg"
+        },
+        "set-4": {
+          "day": "clear_day.svg",
+          "night": "clear_night.svg"
+        },
+        "set-5": {
+          "day": "sunny.svg",
+          "night": "clear_night.svg"
+        },
+        "set-6": {
+          "day": "sunny.svg",
+          "night": "clear_night.svg"
+        }
+      }
+    },
+    "cloudy": {
+      "label": "Cloudy",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "cloudy.png"
+        },
+        "set-2": {
+          "default": "cloudy.png"
+        },
+        "set-3": {
+          "default": "cloudy.svg"
+        },
+        "set-4": {
+          "default": "cloudy.svg"
+        },
+        "set-5": {
+          "default": "cloudy.svg"
+        },
+        "set-6": {
+          "default": "cloudy.svg"
+        }
+      }
+    },
+    "cloudy_with_rain": {
+      "label": "Cloudy with Rain",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "cloudy_with_rain.svg"
+        }
+      }
+    },
+    "cloudy_with_snow": {
+      "label": "Cloudy with Snow",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "cloudy_with_snow.svg"
+        }
+      }
+    },
+    "cloudy_with_sunny": {
+      "label": "Cloudy with Sunny",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "cloudy_with_sunny.svg"
+        }
+      }
+    },
+    "drizzle": {
+      "label": "Drizzle",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "cloudy_s_rain.png"
+        },
+        "set-2": {
+          "default": "drizzle.png"
+        },
+        "set-3": {
+          "default": "drizzle.svg"
+        },
+        "set-4": {
+          "default": "drizzle.svg"
+        },
+        "set-5": {
+          "default": "drizzle.svg"
+        },
+        "set-6": {
+          "default": "drizzle.svg"
+        }
+      }
+    },
+    "dust": {
+      "label": "Dust",
+      "has_day_night": false,
+      "sets": {
+        "set-3": {
+          "default": "dust.svg"
+        }
+      }
+    },
+    "flurries": {
+      "label": "Snow Flurries",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "cloudy_s_snow.png"
+        },
+        "set-2": {
+          "default": "flurries.png"
+        },
+        "set-3": {
+          "default": "flurries.svg"
+        },
+        "set-4": {
+          "default": "flurries.svg"
+        },
+        "set-5": {
+          "default": "flurries.svg"
+        },
+        "set-6": {
+          "default": "flurries.svg"
+        }
+      }
+    },
+    "fog": {
+      "label": "Fog",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "fog.png"
+        },
+        "set-3": {
+          "default": "fog.svg"
+        }
+      }
+    },
+    "haze_fog_dust_smoke": {
+      "label": "Haze / Fog / Dust / Smoke",
+      "aliases": [
+        "fog",
+        "haze",
+        "dust",
+        "smoke"
+      ],
+      "has_day_night": false,
+      "sets": {
+        "set-2": {
+          "default": "haze_fog_dust_smoke.png"
+        },
+        "set-4": {
+          "default": "haze_fog_dust_smoke.svg"
+        }
+      }
+    },
+    "heavy_rain": {
+      "label": "Heavy Rain",
+      "aliases": [
+        "heavy"
+      ],
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "rain_heavy.png"
+        },
+        "set-2": {
+          "default": "heavy_rain.png"
+        },
+        "set-3": {
+          "default": "heavy.svg"
+        },
+        "set-4": {
+          "default": "heavy_rain.svg"
+        },
+        "set-5": {
+          "default": "heavy_rain.svg"
+        },
+        "set-6": {
+          "default": "heavy_rain.svg"
+        }
+      }
+    },
+    "heavy_snow": {
+      "label": "Heavy Snow",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "snow_heavy.png"
+        },
+        "set-2": {
+          "default": "heavy_snow.png"
+        },
+        "set-3": {
+          "default": "heavy_snow.svg"
+        },
+        "set-4": {
+          "default": "heavy_snow.svg"
+        },
+        "set-5": {
+          "default": "heavy_snow.svg"
+        },
+        "set-6": {
+          "default": "heavy_snow.svg"
+        }
+      }
+    },
+    "hurricane": {
+      "label": "Hurricane / Tropical Storm",
+      "aliases": [
+        "tropical_storm_hurricane"
+      ],
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "hurricane.svg"
+        },
+        "set-5": {
+          "default": "hurricane.svg"
+        },
+        "set-6": {
+          "default": "hurricane.svg"
+        }
+      }
+    },
+    "icy": {
+      "label": "Icy",
+      "has_day_night": false,
+      "sets": {
+        "set-3": {
+          "default": "icy.svg"
+        },
+        "set-4": {
+          "default": "icy.svg"
+        },
+        "set-5": {
+          "default": "icy.svg"
+        },
+        "set-6": {
+          "default": "icy.svg"
+        }
+      }
+    },
+    "isolated_scattered_thunderstorms": {
+      "label": "Isolated / Scattered Thunderstorms",
+      "aliases": [
+        "isolated_tstorms"
+      ],
+      "has_day_night": true,
+      "sets": {
+        "set-2": {
+          "day": "isolated_scattered_tstorms_day.png",
+          "night": "isolated_scattered_tstorms_night.png"
+        },
+        "set-3": {
+          "default": "isolated_tstorms.svg"
+        },
+        "set-4": {
+          "day": "isolated_scattered_thunderstorms_day.svg",
+          "night": "isolated_scattered_thunderstorms_night.svg"
+        }
+      }
+    },
+    "isolated_thunderstorms": {
+      "label": "Isolated Thunderstorms",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "isolated_thunderstorms.svg"
+        }
+      }
+    },
+    "light_rain": {
+      "label": "Light Rain",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "rain_light.png"
+        }
+      }
+    },
+    "light_snow": {
+      "label": "Light Snow",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "snow_light.png"
+        }
+      }
+    },
+    "mist": {
+      "label": "Mist",
+      "has_day_night": false,
+      "sets": {
+        "set-3": {
+          "default": "mist.svg"
+        }
+      }
+    },
+    "mixed_rain_hail_sleet": {
+      "label": "Mixed Rain, Hail, and Sleet",
+      "has_day_night": false,
+      "sets": {
+        "set-3": {
+          "default": "mixed_rain_hail_sleet.svg"
+        },
+        "set-4": {
+          "default": "mixed_rain_hail_sleet.svg"
+        }
+      }
+    },
+    "mixed_rain_snow": {
+      "label": "Mixed Rain and Snow",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "snow_s_rain.png"
+        },
+        "set-4": {
+          "default": "mixed_rain_snow.svg"
+        }
+      }
+    },
+    "mostly_clear": {
+      "label": "Mostly Clear",
+      "aliases": [
+        "mostly_sunny"
+      ],
+      "has_day_night": true,
+      "sets": {
+        "set-1": {
+          "day": "sunny_s_cloudy.png"
+        },
+        "set-2": {
+          "day": "mostly_sunny.png",
+          "night": "mostly_clear_night.png"
+        },
+        "set-3": {
+          "day": "mostly_sunny.svg",
+          "night": "mostly_clear.svg"
+        },
+        "set-4": {
+          "day": "mostly_clear_day.svg",
+          "night": "mostly_clear_night.svg"
+        },
+        "set-5": {
+          "day": "mostly_sunny.svg",
+          "night": "mostly_clear_night.svg"
+        },
+        "set-6": {
+          "day": "mostly_sunny.svg",
+          "night": "mostly_clear_night.svg"
+        }
+      }
+    },
+    "mostly_cloudy": {
+      "label": "Mostly Cloudy",
+      "has_day_night": true,
+      "sets": {
+        "set-1": {
+          "day": "cloudy_s_sunny.png"
+        },
+        "set-2": {
+          "day": "mostly_cloudy_day.png",
+          "night": "mostly_cloudy_night.png"
+        },
+        "set-3": {
+          "day": "mostly_cloudy.svg",
+          "night": "mostly_cloudy_night.svg"
+        },
+        "set-4": {
+          "day": "mostly_cloudy_day.svg",
+          "night": "mostly_cloudy_night.svg"
+        },
+        "set-5": {
+          "night": "mostly_cloudy_night.svg"
+        },
+        "set-6": {
+          "night": "mostly_cloudy_night.svg"
+        }
+      }
+    },
+    "partly_cloudy": {
+      "label": "Partly Cloudy",
+      "has_day_night": true,
+      "sets": {
+        "set-1": {
+          "day": "partly_cloudy.png"
+        },
+        "set-2": {
+          "day": "partly_cloudy.png",
+          "night": "partly_cloudy_night.png"
+        },
+        "set-3": {
+          "day": "partly_cloudy.svg",
+          "night": "partly_clear.svg"
+        },
+        "set-4": {
+          "day": "partly_cloudy_day.svg",
+          "night": "partly_cloudy_night.svg"
+        },
+        "set-5": {
+          "day": "partly_cloudy.svg",
+          "night": "partly_cloudy_night.svg"
+        },
+        "set-6": {
+          "day": "partly_cloudy.svg",
+          "night": "partly_cloudy_night.svg"
+        }
+      }
+    },
+    "rain": {
+      "label": "Rain",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "rain.png"
+        }
+      }
+    },
+    "rain_with_cloudy": {
+      "label": "Rain with Cloudy",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "rain_with_cloudy.svg"
+        }
+      }
+    },
+    "rain_with_snow": {
+      "label": "Rain with Snow",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "rain_with_snow.svg"
+        }
+      }
+    },
+    "rain_with_sunny": {
+      "label": "Rain with Sunny",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "rain_s_sunny.png"
+        },
+        "set-4": {
+          "default": "rain_with_sunny.svg"
+        }
+      }
+    },
+    "scattered_showers": {
+      "label": "Scattered Showers",
+      "has_day_night": true,
+      "sets": {
+        "set-2": {
+          "day": "scattered_showers_day.png",
+          "night": "scattered_showers_night.png"
+        },
+        "set-3": {
+          "default": "scattered_showers.svg"
+        },
+        "set-4": {
+          "day": "scattered_showers_day.svg",
+          "night": "scattered_showers_night.svg"
+        }
+      }
+    },
+    "scattered_snow": {
+      "label": "Scattered Snow",
+      "has_day_night": false,
+      "sets": {
+        "set-3": {
+          "default": "scattered_snow.svg"
+        }
+      }
+    },
+    "scattered_snow_showers": {
+      "label": "Scattered Snow Showers",
+      "has_day_night": true,
+      "sets": {
+        "set-4": {
+          "day": "scattered_snow_showers_day.svg",
+          "night": "scattered_snow_showers_night.svg"
+        }
+      }
+    },
+    "showers": {
+      "label": "Showers",
+      "aliases": [
+        "showers_rain"
+      ],
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "rain_s_cloudy.png"
+        },
+        "set-2": {
+          "default": "showers_rain.png"
+        },
+        "set-3": {
+          "default": "showers.svg"
+        },
+        "set-4": {
+          "default": "showers_rain.svg"
+        }
+      }
+    },
+    "showers_snow": {
+      "label": "Snow Showers",
+      "aliases": [
+        "snow_showers"
+      ],
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "snow_s_cloudy.png"
+        },
+        "set-2": {
+          "default": "snow_showers_snow.png"
+        },
+        "set-3": {
+          "default": "snow_showers.svg"
+        },
+        "set-4": {
+          "default": "showers_snow.svg"
+        },
+        "set-5": {
+          "default": "snow_showers.svg"
+        }
+      }
+    },
+    "sleet_hail": {
+      "label": "Sleet and Hail",
+      "has_day_night": false,
+      "sets": {
+        "set-2": {
+          "default": "sleet_hail.png"
+        },
+        "set-3": {
+          "default": "sleet_hail.svg"
+        },
+        "set-4": {
+          "default": "sleet_hail.svg"
+        },
+        "set-5": {
+          "default": "sleet_hail.svg"
+        },
+        "set-6": {
+          "default": "sleet_hail.svg"
+        }
+      }
+    },
+    "smoke": {
+      "label": "Smoke",
+      "has_day_night": false,
+      "sets": {
+        "set-3": {
+          "default": "smoke.svg"
+        }
+      }
+    },
+    "snow": {
+      "label": "Snow",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "snow.png"
+        }
+      }
+    },
+    "snow_with_cloudy": {
+      "label": "Snow with Cloudy",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "snow_with_cloudy.svg"
+        }
+      }
+    },
+    "snow_with_rain": {
+      "label": "Snow with Rain",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "snow_with_rain.svg"
+        }
+      }
+    },
+    "snow_with_sunny": {
+      "label": "Snow with Sunny",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "snow_with_sunny.svg"
+        }
+      }
+    },
+    "strong_thunderstorms": {
+      "label": "Strong Thunderstorms",
+      "aliases": [
+        "strong_tstorms"
+      ],
+      "has_day_night": false,
+      "sets": {
+        "set-2": {
+          "default": "strong_tstorms.png"
+        },
+        "set-3": {
+          "default": "strong_tstorms.svg"
+        },
+        "set-4": {
+          "default": "strong_thunderstorms.svg"
+        },
+        "set-5": {
+          "default": "strong_thunderstorms.svg"
+        },
+        "set-6": {
+          "default": "strong_thunderstorms.svg"
+        }
+      }
+    },
+    "sunny_with_cloudy": {
+      "label": "Sunny with Cloudy",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "sunny_with_cloudy.svg"
+        }
+      }
+    },
+    "sunny_with_rain": {
+      "label": "Sunny with Rain",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "sunny_s_rain.png"
+        },
+        "set-4": {
+          "default": "sunny_with_rain.svg"
+        }
+      }
+    },
+    "sunny_with_snow": {
+      "label": "Sunny with Snow",
+      "region": "japan",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "sunny_with_snow.svg"
+        }
+      }
+    },
+    "thunderstorms": {
+      "label": "Thunderstorms",
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "thunderstorms.png"
+        },
+        "set-4": {
+          "default": "thunderstorms.svg"
+        },
+        "set-5": {
+          "default": "thunderstorms.svg"
+        }
+      }
+    },
+    "tornado": {
+      "label": "Tornado",
+      "has_day_night": false,
+      "sets": {
+        "set-2": {
+          "default": "tornado.png"
+        },
+        "set-3": {
+          "default": "tornado.svg"
+        },
+        "set-4": {
+          "default": "tornado.svg"
+        },
+        "set-5": {
+          "default": "tornado.svg"
+        },
+        "set-6": {
+          "default": "tornado.svg"
+        }
+      }
+    },
+    "tropical_storm_hurricane": {
+      "label": "Tropical Storm / Hurricane",
+      "aliases": [
+        "hurricane"
+      ],
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "tropical_storm_hurricane.svg"
+        },
+        "set-5": {
+          "default": "hurricane.svg"
+        },
+        "set-6": {
+          "default": "hurricane.svg"
+        }
+      }
+    },
+    "very_cold": {
+      "label": "Very Cold",
+      "has_day_night": false,
+      "sets": {
+        "set-3": {
+          "default": "very_cold.svg"
+        },
+        "set-4": {
+          "default": "very_cold.svg"
+        },
+        "set-6": {
+          "default": "very_cold.svg"
+        }
+      }
+    },
+    "very_hot": {
+      "label": "Very Hot",
+      "has_day_night": false,
+      "sets": {
+        "set-4": {
+          "default": "very_hot.svg"
+        },
+        "set-6": {
+          "default": "very_hot.svg"
+        }
+      }
+    },
+    "windy": {
+      "label": "Windy",
+      "aliases": [
+        "wind",
+        "windy_breezy"
+      ],
+      "has_day_night": false,
+      "sets": {
+        "set-3": {
+          "default": "windy_breezy.svg"
+        },
+        "set-4": {
+          "default": "windy.svg"
+        },
+        "set-5": {
+          "default": "windy.svg"
+        },
+        "set-6": {
+          "default": "windy.svg"
+        }
+      }
+    },
+    "wintry_mix": {
+      "label": "Wintry Mix",
+      "aliases": [
+        "mixed_rain_snow"
+      ],
+      "has_day_night": false,
+      "sets": {
+        "set-1": {
+          "default": "rain_s_snow.png"
+        },
+        "set-2": {
+          "default": "wintry_mix_rain_snow.png"
+        },
+        "set-3": {
+          "default": "wintry_mix.svg"
+        },
+        "set-4": {
+          "default": "mixed_rain_snow.svg"
+        },
+        "set-5": {
+          "default": "wintry_mix.svg"
+        },
+        "set-6": {
+          "default": "wintry_mix.svg"
+        }
+      }
+    }
+  },
+  "misc": {
+    "set-1": [
+      "arrow_selected.svg",
+      "arrow_unselected.svg"
+    ],
+    "set-3": [
+      "arrow.svg",
+      "arrow_2.svg",
+      "arrow_3.svg",
+      "arrow_4.svg",
+      "arrow_5.svg",
+      "clear_alt.svg",
+      "droplet_clear.svg",
+      "droplet_drizzle.svg",
+      "droplet_heavy.svg",
+      "droplet_light.svg",
+      "droplet_moderate.svg",
+      "mostly_clear_alt.svg",
+      "mostly_cloudy_night_alt.svg",
+      "partly_clear_alt.svg"
+    ],
+    "set-4": [
+      "umbrella.svg"
+    ]
+  }
+}
