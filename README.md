@@ -368,8 +368,10 @@ const byAlias = Object.entries(icons.conditions)
 
 All icons are the property of Google. This repository is for reference and educational purposes.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mrdarrengriffin/google-weather-icons&type=Date&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mrdarrengriffin/google-weather-icons&type=Date" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mrdarrengriffin/google-weather-icons&type=Date" />
-</picture>
+<a href="https://www.star-history.com/?repos=mrdarrengriffin%2Fgoogle-weather-icons&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mrdarrengriffin/google-weather-icons&type=date&theme=dark&legend=top-left&sealed_token=PoJQH3ZTfDNxDEW5CrNRIg9noqHstQBLea8etk6z4jdaXtJ666jbFken8naalWpfvSKnbYmq379WXA-1_QZIUR3anDMxS9D9NcTteb-zoE6mNNaYHNNVOw" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=mrdarrengriffin/google-weather-icons&type=date&legend=top-left&sealed_token=PoJQH3ZTfDNxDEW5CrNRIg9noqHstQBLea8etk6z4jdaXtJ666jbFken8naalWpfvSKnbYmq379WXA-1_QZIUR3anDMxS9D9NcTteb-zoE6mNNaYHNNVOw" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=mrdarrengriffin/google-weather-icons&type=date&legend=top-left&sealed_token=PoJQH3ZTfDNxDEW5CrNRIg9noqHstQBLea8etk6z4jdaXtJ666jbFken8naalWpfvSKnbYmq379WXA-1_QZIUR3anDMxS9D9NcTteb-zoE6mNNaYHNNVOw" />
+ </picture>
+</a>
